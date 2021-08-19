@@ -15,3 +15,5 @@ Automation for my payin work-flow
 - Set your "TOKEN_JIRA"
 - Set your "TOKEN_GITLAB"
 - Ask for permission in slack bot
+
+## NPM install inside /Automation

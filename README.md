@@ -21,10 +21,14 @@
 
 # Features
 
+## Gitlab MRS
+
 ### mrs: based on Automation/gitlab.js "gitlabProjectIds".
 - List all mrs. ex: mrs
 - -a option, list all mrs that need approve. ex: mrs -a
 - -m list your mrs. ex: mrs -m
+
+## GIT
 
 ### gichn "taskNumber"
 - Finds the task number, set the type and prefix for you. ex: gichn 951 -> "feature/PAYT-951"
@@ -46,6 +50,8 @@
 - Update the current branch with the "projects main branch", could be develop, main, master.
 - Uses "git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@' " to get the main branch.
 
+## JIRA
+
 ### jivalidate "TaskNumber"
 - Move the task to Validate. ex: jivalidate 951.
 
@@ -63,19 +69,21 @@
 
 # Alias
 
-alias c='clear'
-alias eProfile='gedit $HOME/.profile'
-alias ws='~/WebStorm/bin/webstorm.sh'
-alias ij='~/IntelliJ/bin/idea.sh'
+- alias c='clear'
+- alias eProfile='gedit $HOME/.profile'
+- alias ws='~/WebStorm/bin/webstorm.sh'
+- alias ij='~/IntelliJ/bin/idea.sh'
 
-alias gip='git pull'
-alias gist='git status'
-alias gilo='git log --decorate --oneline --graph'
-alias gichr='git checkout -- .'
-alias gipd='git pull --rebase origin develop'
-alias gipu='git pull --rebase origin HEAD'
-alias gisa='git stash apply'
+- alias gip='git pull'
+- alias gist='git status'
+- alias gilo='git log --decorate --oneline --graph'
+- alias gichr='git checkout -- .'
+- alias gipd='git pull --rebase origin develop'
+- alias gipu='git pull --rebase origin HEAD'
+- alias gisa='git stash apply'
 
+
+```
 girs() {
   git reset --soft HEAD~${1:-1}
 }
@@ -95,3 +103,4 @@ po() {
   local NAME="payment-transactions"
   cd "$HOME/Documentos/code/$PREFIX${1:-$NAME}${2:-"-$POSFIX"}"
 }
+```

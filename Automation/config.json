@@ -1,0 +1,10 @@
+{
+  "username": "your.username",
+  "gitlabProjectIds": [6834,6456,6459,7058,6812,6495,6496,7008],
+  "urls": {
+    "gitlab": "https://code.ifoodcorp.com.br/api/v4"
+  },
+  "tokens": {
+    "gitlab": "xxxxxxxxxxxxx"  
+  }
+}

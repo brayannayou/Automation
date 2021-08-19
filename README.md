@@ -12,8 +12,8 @@ Automation for my payin work-flow
 
 ## Configure ./.profile file
 - Set your email
-- Set your "TOKEN_JIRA"
-- Set your "TOKEN_GITLAB"
-- Ask for permission in slack bot
+- Set your "TOKEN_JIRA" -> Get yours at https://id.atlassian.com/manage-profile/security/api-tokens
+- Set your "TOKEN_GITLAB" -> Get yours at https://code.ifoodcorp.com.br/-/profile/personal_access_tokens
+- Ask for permission in slack bot -> Hendry
 
 ## NPM install inside /Automation

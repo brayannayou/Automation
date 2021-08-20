@@ -1,5 +1,16 @@
 # Install
 
+### Requirements
+- Node 14
+
+### Npm
+- `npm install` inside /Automation
+
+### Paste files at your home/yourUser
+- Files must be at /home/youruser. No folders hugging it
+- Ex: /home/user/.profile
+- Ex: /home/user/Automation/gitlab.js
+
 ### ./Automation/config.json file
 - Set your username
 - Make sure to set the gitlab project ID's of the projects that your interested
@@ -10,14 +21,6 @@
 - Set your "TOKEN_JIRA" -> Get yours at https://id.atlassian.com/manage-profile/security/api-tokens
 - Set your "TOKEN_GITLAB" -> Get yours at https://code.ifoodcorp.com.br/-/profile/personal_access_tokens
 - Ask for permission in slack bot -> Hendry
-
-### Paste files at your home/yourUser
-- Files must be at /home/youruser. No folders hugging it
-- Ex: /home/user/.profile
-- Ex: /home/user/Automation/gitlab.js
-
-### Install
-- NPM install inside /Automation
 
 # Features
 

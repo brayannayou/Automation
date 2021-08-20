@@ -2,31 +2,35 @@
 
 ### Requirements
 - Node 14
+- NPM
+- Gitlab API-Token
+- Jira API-Token
+- Slack "tooling-estagiario" bot permission
 
 ### Npm
 - `npm install` inside /Automation
 
-### Paste files at your home/yourUser
+### Paste files inside main folder at your home/yourUser
 - Files must be at /home/youruser. No folders hugging it
 - Ex: /home/user/.profile
 - Ex: /home/user/Automation/gitlab.js
 
 ### ./Automation/config.json file
 - Set your username
-- Make sure to set the gitlab project ID's of the projects that your interested
+- Make sure to set the "gitlabProjectIds", gitlab project ID's of the projects that your interested
 - Create an API-Token and set it at "tokens.gitlab"
 
 ### ./.profile file
 - Set your email
 - Set your "TOKEN_JIRA" -> Get yours at https://id.atlassian.com/manage-profile/security/api-tokens
 - Set your "TOKEN_GITLAB" -> Get yours at https://code.ifoodcorp.com.br/-/profile/personal_access_tokens
-- Ask for permission in slack bot -> Hendry
 
 # Features
 
 ## Gitlab MRS
 
-### mrs: based on Automation/gitlab.js "gitlabProjectIds".
+### mrs
+Based on Automation/gitlab.js "gitlabProjectIds".
 - List all mrs. ex: mrs
 - -a option, list all mrs that need approve. ex: mrs -a
 - -m list your mrs. ex: mrs -m
